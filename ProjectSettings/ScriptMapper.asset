@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!94 &1
+ScriptMapper:
+  m_ObjectHideFlags: 0
+  m_Shaders:
+    m_ObjectToName:
+    - first: {fileID: 69, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-DeferredShading
+    - first: {fileID: 74, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-DeferredReflections
+    - first: {fileID: 63, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-PrePassLighting
+    - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Diffuse
+    - first: {fileID: 15104, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/CubeBlur
+    - first: {fileID: 15105, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/CubeCopy
+    - first: {fileID: 15106, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/CubeBlend
+    - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      second: UI/Default
+    - first: {fileID: 10782, guid: 0000000000000000f000000000000000, type: 0}
+      second: UI/Default Font
+    - first: {fileID: 17, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/InternalErrorShader
+    - first: {fileID: 62, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Camera-DepthNormalTexture
+    - first: {fileID: 64, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-PrePassCollectShadows
+    - first: {fileID: 65, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-CombineDepthNormals
+    - first: {fileID: 66, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/BlitCopy
+    - first: {fileID: 68, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalClear
+    - first: {fileID: 69, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-Colored
+    - first: {fileID: 70, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalSplashShadowCaster
+    - first: {fileID: 71, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalSplashShadowBlur
+    - first: {fileID: 72, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalSplashShadowReceiver
+    - first: {fileID: 73, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalSplashShadowReceiverSimple
+    - first: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Flare
+    - first: {fileID: 105, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Halo
+    - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClip
+    - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClipText
+    - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITexture
+    - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureBlit
+    - first: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+      second: GUI/Text Shader
+    - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+      second: Sprites/Default
+    - first: {fileID: 4800000, guid: 1cc541dc30d7f7b4f86c6d57ef954c87, type: 3}
+      second: Hidden/FrameDebuggerRenderTargetDisplay
+    - first: {fileID: 0}
+      second: Standard (Specular setup)
+    - first: {fileID: 4800000, guid: aab11cf0194c7f6438c365ab90aa456a, type: 3}
+      second: Standard
+    - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Fast
+    - first: {fileID: 0}
+      second: Legacy Shaders/Bumped Diffuse
+    - first: {fileID: 3, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Detail
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Bumped Specular
+    - first: {fileID: 34, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Transparent/VertexLit
+    - first: {fileID: 30, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Transparent/Diffuse
+    - first: {fileID: 31, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Transparent/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Bumped Specular
+    - first: {fileID: 50, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Transparent/Cutout/VertexLit
+    - first: {fileID: 51, guid: 0000000000000000f000000000000000, type: 0}
+      second: Legacy Shaders/Transparent/Cutout/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Bumped Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Self-Illumin/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Reflective/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Parallax Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Transparent/Cutout/Soft Edge Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Decal
+    - first: {fileID: 0}
+      second: FX/Flare
+    - first: {fileID: 0}
+      second: Skybox/Cubemap
+    - first: {fileID: 104, guid: 0000000000000000f000000000000000, type: 0}
+      second: Skybox/6 Sided
+    - first: {fileID: 0}
+      second: Skybox/Procedural
+    - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Additive
+    - first: {fileID: 0}
+      second: Particles/~Additive-Multiply
+    - first: {fileID: 0}
+      second: Particles/Additive (Soft)
+    - first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Particles/Multiply
+    - first: {fileID: 206, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Multiply (Double)
+    - first: {fileID: 0}
+      second: Particles/Alpha Blended Premultiply
+    - first: {fileID: 0}
+      second: Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Sprites/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/Vertexlit
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/WavingDoublePass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/BillboardWavingDoublePass
+    - first: {fileID: 0}
+      second: Nature/Terrain/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Diffuse-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/BillboardTree
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Specular
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Bark
+    - first: {fileID: 10510, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Leaves Rendertex
+    - first: {fileID: 10511, guid: 0000000000000000f000000000000000, type: 0}
+      second: Nature/Tree Soft Occlusion Leaves
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Bark
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Optimized
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Optimized
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves Fast
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Fast Optimized
+    - first: {fileID: 0}
+      second: Nature/Terrain/Specular
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Specular-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Specular-Base
+    - first: {fileID: 0}
+      second: Nature/Terrain/Standard
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Standard-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Standard-Base
+    - first: {fileID: 0}
+      second: Mobile/Skybox
+    - first: {fileID: 0}
+      second: Mobile/VertexLit
+    - first: {fileID: 0}
+      second: Mobile/Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular (1 Directional Light)
+    - first: {fileID: 0}
+      second: Mobile/VertexLit (Only Directional Lights)
+    - first: {fileID: 0}
+      second: Mobile/Unlit (Supports Lightmap)
+    - first: {fileID: 0}
+      second: Mobile/Particles/Additive
+    - first: {fileID: 10721, guid: 0000000000000000f000000000000000, type: 0}
+      second: Mobile/Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/Multiply
+    - first: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+      second: Unlit/Transparent
+    - first: {fileID: 0}
+      second: Unlit/Transparent Cutout
+    - first: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+      second: Unlit/Texture
+    - first: {fileID: 0}
+      second: Unlit/Color
+    - first: {fileID: 0}
+      second: UI/Unlit/Transparent
+    - first: {fileID: 0}
+      second: UI/Unlit/Detail
+    - first: {fileID: 0}
+      second: UI/Unlit/Text
+    - first: {fileID: 0}
+      second: UI/Unlit/Text Detail
+    - first: {fileID: 0}
+      second: UI/Lit/Transparent
+    - first: {fileID: 0}
+      second: UI/Lit/Bumped
+    - first: {fileID: 0}
+      second: UI/Lit/Detail
+    - first: {fileID: 0}
+      second: UI/Lit/Refraction
+    - first: {fileID: 0}
+      second: UI/Lit/Refraction Detail
+    - first: {fileID: 0}
+      second: UI/DefaultETC1
+    - first: {fileID: 0}
+      second: Nature/SpeedTree
+    - first: {fileID: 0}
+      second: Nature/SpeedTree Billboard
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/TextureUV
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/UV1sAsPositions
+    - first: {fileID: 0}
+      second: Hidden/GIDebug/VertexColors
+    - first: {fileID: 4800000, guid: b7921ba7dec093044ab481b35c36f5c8, type: 3}
+      second: Hidden/ColorCorrectionCurves
+    - first: {fileID: 4800000, guid: 5c1373248178cbe4fa8ca29b78de97ed, type: 3}
+      second: Hidden/ColorCorrectionCurvesSimple
+    - first: {fileID: 4800000, guid: c72464c4e52b23f46a8e5ccd1b30983b, type: 3}
+      second: Hidden/ColorCorrectionSelective
+    - first: {fileID: 4800000, guid: 7b330c2e985019c40ac2375c257a60f8, type: 3}
+      second: Hidden/LensFlareCreate
+    - first: {fileID: 4800000, guid: d0f59a6675a87f84b8d5b3be1a68a0d1, type: 3}
+      second: Hidden/VignetteShader
+    - first: {fileID: 4800000, guid: 6f759027c47e79e4f8569680c0bbfc46, type: 3}
+      second: Hidden/SeparableBlurPlus
+    - first: {fileID: 4800000, guid: 9b19acc41790d7c41b9e31cb9f8a7056, type: 3}
+      second: Hidden/BlendOneOne
+    - first: {fileID: 4800000, guid: b3223a58a25d38947a10fcae8815632a, type: 3}
+      second: Hidden/Blend
+    - first: {fileID: 4800000, guid: 2f74a01f327e5e94999afdd396df02e7, type: 3}
+      second: Hidden/MultipassHollywoodFlares
+    - first: {fileID: 4800000, guid: 1346d20a3077b664fa36f0b35935ab77, type: 3}
+      second: Hidden/BrightPassFilterShader
+    - first: {fileID: 4800000, guid: ae17dc4f132df16429a08193b27ae4e5, type: 3}
+      second: Unlit/Dynamic Font
+    - first: {fileID: 4800000, guid: a2c8abdb5e5dfda4c8a3da66657f0c89, type: 3}
+      second: Unlit/Transparent Colored (SoftClip)
+    - first: {fileID: 4800000, guid: 763d01c9dfa34c94c8ee18011b148624, type: 3}
+      second: Particles/Additive-layer
+    - first: {fileID: 4800000, guid: c7076ceea54f1ab42b3226717ec83ed2, type: 3}
+      second: Unlit/Depth
+    - first: {fileID: 4800000, guid: e59dcea4f0cdb3147a4151c060efd2a8, type: 3}
+      second: Unlit/Transparent Colored (Packed) (SoftClip)
+    - first: {fileID: 4800000, guid: 045872e6975306148af444fcbf18ca50, type: 3}
+      second: GUI/Text Shader (AlphaClip)
+    - first: {fileID: 4800000, guid: 11e77e2e4acf57a4683fc26e980f76ad, type: 3}
+      second: RenderFX/Skybox Blended
+    - first: {fileID: 4800000, guid: 230b6fbeae9714d45995054732d62eb2, type: 3}
+      second: AdvGlass
+    - first: {fileID: 4800000, guid: 2e1ab257a241f9c4183dab5bfbdbef7a, type: 3}
+      second: Unlit/Additive Colored
+    - first: {fileID: 4800000, guid: ebc7a498180c8e146a6287f5e23fbe97, type: 3}
+      second: HeatDistort
+    - first: {fileID: 4800000, guid: 7643012a18925884a904807294540fb3, type: 3}
+      second: AdvWater
+    - first: {fileID: 4800000, guid: a1304e25903511543b56ffb4949aab8f, type: 3}
+      second: Unlit/Transparent Colored (AlphaClip)
+    - first: {fileID: 4800000, guid: c14db5de6675e40488d535237194ab04, type: 3}
+      second: Transparent/VertexLit with Z
+    - first: {fileID: 4800000, guid: fcd50df48651fed4dbe75083f7bd0303, type: 3}
+      second: AdvGround
+    - first: {fileID: 4800000, guid: 86151f3c31bb3eb419190d10550b1a1f, type: 3}
+      second: Unlit/Transparent Colored (Packed) (AlphaClip)
+    - first: {fileID: 4800000, guid: bd6fb047735ef7f408089a6f0b657a77, type: 3}
+      second: Unlit/Transparent Colored Overlay
+    - first: {fileID: 4800000, guid: 37e9029259300e944a1e9d42c8d15238, type: 3}
+      second: Unlit/Premultiplied Colored (SoftClip)
+    - first: {fileID: 4800000, guid: 42d8ef6c20100e945854ed6ed6c06e20, type: 3}
+      second: Unlit/Dynamic Font (SoftClip)
+    - first: {fileID: 4800000, guid: b52d27d00eed94348a2d9ca270482f58, type: 3}
+      second: GUI/Text Shader (SoftClip)
+    - first: {fileID: 4800000, guid: f825aed56847787459710f941fda08c9, type: 3}
+      second: Unlit/Premultiplied Colored (AlphaClip)
+    - first: {fileID: 4800000, guid: ccfb793a860458b40b957afcb32f47e0, type: 3}
+      second: Diffuse Without Culling
+    - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      second: Diffuse
+    - first: {fileID: 4800000, guid: d52d98d0211b08b4f8f1e3fbbe2f4c29, type: 3}
+      second: Unlit/Dynamic Font (AlphaClip)
+    - first: {fileID: 4800000, guid: 4bf99d8b3b5fd2246be64d73bccd7b62, type: 3}
+      second: Unlit/Depth Cutout
+    - first: {fileID: 4800000, guid: 9136a01bebdad924fb40887c9f96c926, type: 3}
+      second: Unlit/Transparent Colored
+    - first: {fileID: 4800000, guid: 7e5ef59e6608bb44c90e4c5d8e943b55, type: 3}
+      second: Unlit/Premultiplied Colored
+    - first: {fileID: 4800000, guid: f8c5218340cd1f84185f001cc31b6122, type: 3}
+      second: Unlit/Transparent Colored (Packed)
+    - first: {fileID: 4800000, guid: 2cc1c4301bee54c44a6dbc02094dda48, type: 3}
+      second: Unlit/Masked Colored
+  m_PreloadShaders: 0
